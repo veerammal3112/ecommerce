@@ -31,6 +31,7 @@ export default function Home() {
   }, [error, dispatch,currentPage])
 
   return (
+    // Loader is checked
     <Fragment>
       {loading ? <Loader /> : 
 
